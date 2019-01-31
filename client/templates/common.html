@@ -1,0 +1,22 @@
+<home-buttons></home-buttons>
+
+<div class="panel panel-default" ng-init="getCommon()">
+	<div class="panel-body">
+		<table class="table table-striped">
+			<thead>
+			<tr>
+			  <th>Id</th>
+			  <th>Full Name</th>
+			  <th>Salary</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr ng-repeat="detail in details">
+			  <td>{{ detail.id }}</td>
+			  <td>{{ detail.fullName }}</td>
+			  <td>{{ detail.salary }}</td>
+			</tr>
+			</tbody>
+		</table>		
+    <div>
+<div>

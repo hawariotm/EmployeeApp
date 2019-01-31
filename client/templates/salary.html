@@ -1,0 +1,20 @@
+<home-buttons></home-buttons>
+
+<div class="panel panel-default" ng-init="getSalaries()">
+	<div class="panel-body">
+		<table class="table table-striped">
+			<thead>
+			<tr>
+			  <th>Salary</th>
+			  <th>Employee Id</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr ng-repeat="salary in salaries">
+			  <td>{{ salary.salary }}</td>
+			  <td>{{ salary.empId }}</td>
+			</tr>
+			</tbody>
+		</table>		
+    <div>
+<div>

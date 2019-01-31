@@ -1,0 +1,29 @@
+{
+    "salary": [
+        {   
+            "id": 1,
+            "empId": 1,
+            "salary": 38895
+        },
+        {
+            "id": 2,
+            "empId": 2,
+            "salary": 586545
+        },
+        {
+            "id": 3,
+            "empId": 3,
+            "salary": 2323423
+        },
+        {
+            "id": 4,
+            "empId": 4,
+            "salary": 234343
+        },
+        {
+            "id": 5,
+            "empId": 6,
+            "salary": 134343
+        }
+    ]
+}

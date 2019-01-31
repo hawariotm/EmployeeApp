@@ -1,0 +1,22 @@
+<home-buttons></home-buttons>
+
+<div class="panel panel-default" ng-init="getEmployees()">
+	<div class="panel-body">
+		<table class="table table-striped">
+			<thead>
+			<tr>
+			  <th>First Name</th>
+			  <th>Last Name</th>
+			  <th>Id</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr ng-repeat="employee in employees">
+			  <td>{{ employee.firstName }}</td>
+			  <td>{{ employee.lastName }}</td>
+			  <td>{{ employee.id }}</td>
+			</tr>
+			</tbody>
+		</table>		
+    <div>
+<div>
